@@ -293,3 +293,23 @@ footer a:hover {
     box-shadow: 0 0 20px crimson;
 }
 
+@media (max-width: 600px) {
+    .biografia {
+        padding: 1rem;
+        line-height: 1.4;
+    }
+
+    .asesino-img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .btn-entrar {
+        width: 80%;
+        max-width: 250px;
+        text-align: center;
+    }
+}
+
+
+
