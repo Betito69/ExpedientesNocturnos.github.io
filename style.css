@@ -227,7 +227,10 @@ footer a:hover {
     top: 0;                  
     background-color: #111; 
     z-index: 999; 
-    border-bottom: 2px solid crimson;         
+    border-bottom: 2px solid crimson;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
 .menu ul {
@@ -236,6 +239,7 @@ footer a:hover {
     padding: 0;
     display: flex;          
     justify-content: center; 
+   flex-wrap: wrap;
 }
 
 .menu li {
@@ -344,6 +348,7 @@ footer a:hover {
         font-size: 1rem;
     }
 }
+
 
 
 
