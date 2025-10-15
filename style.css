@@ -309,7 +309,20 @@ footer a:hover {
         max-width: 250px;
         text-align: center;
     }
+
+    .menu ul {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 0 0 auto;
+    }
+
+    .menu li {
+        margin: 0 1rem;
+        flex: 0 0 auto;
+    }
 }
+
 
 
 
