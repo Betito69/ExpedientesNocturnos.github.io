@@ -258,9 +258,11 @@ footer a:hover {
 /* Biografias individuales */
 
 .contenedor-bio {
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .biografia {
@@ -269,11 +271,12 @@ footer a:hover {
     border: 2px solid crimson;
     border-radius: 12px;
     padding: 2rem;
-    width: 90%; 
-    max-width: 900px;
+    width: 100%; 
+    max-width: 600px;
     box-shadow: 0 0 20px rgba(220, 20, 60, 0.4);
     line-height: 1.6;
     text-align: justify;
+    box-sizing: border-box;
 }
 
 .biografia h2 {
@@ -341,6 +344,7 @@ footer a:hover {
         font-size: 1rem;
     }
 }
+
 
 
 
